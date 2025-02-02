@@ -1,0 +1,28 @@
+<!DOCTYPE html> <!-- Déclaration du type de document HTML -->
+<html lang="en"> <!-- Début du document HTML avec la langue définie sur l'anglais -->
+    <head> <!-- Début de l'en-tête du document -->
+        <meta charset="utf-8"/> <!-- Définition de l'encodage des caractères en UTF-8 -->
+        <title>Card Maker</title> <!-- Titre de la page affiché dans l'onglet du navigateur -->
+        <link rel="stylesheet" href="style.css"/> <!-- Lien vers le fichier CSS externe pour le style -->
+    </head> <!-- Fin de l'en-tête du document -->
+    <body> <!-- Début du corps du document -->
+        <div class="title">FLASH CARDS</div> <!-- Titre de la page affiché en tant que div -->
+        <div class="flash-card-outer-container"></div> <!-- Conteneur principal pour les cartes flash -->
+        <div class="btn-container"> <!-- Conteneur pour les boutons -->
+            <div class="create-card-btn btn">CREATE FLASHCARDS</div> <!-- Bouton pour créer des cartes flash -->
+            <div class="study-card-btn btn">STUDY FLASHCARDS</div> <!-- Bouton pour étudier les cartes flash -->
+        </div>
+        <div class="study-flashcards-screen"> <!-- Écran dans lequel les flashcards seront affichées -->
+            <div class="front-side-card card"></div> <!-- Carte côté recto -->
+            <div class="back-side-card card"></div> <!-- Carte côté verso -->
+            <div class="btn-container"> <!-- Conteneur pour les boutons de navigation -->
+                <div class="prev-card-btn btn">Previous Card</div> <!-- Bouton pour afficher la carte précédente -->
+				<div class="front-card-btn btn">Show Frontside</div> <!-- Bouton pour afficher le recto de la carte -->
+                <div class="back-side-btn btn">Show Backside</div> <!-- Bouton pour afficher le verso de la carte -->
+                <div class="next-card-btn btn">Next Card</div> <!-- Bouton pour la carte suivante -->
+            </div>
+        </div>
+        <div class="edit-card-btn btn">Edit Cards</div> <!-- Bouton pour éditer les cartes -->
+        <script src="Script.js" defer></script> <!-- Lien vers le fichier JavaScript externe avec l'attribut defer pour différer l'exécution -->
+    </body> <!-- Fin du corps du document -->
+</html> <!-- Fin du document HTML -->
